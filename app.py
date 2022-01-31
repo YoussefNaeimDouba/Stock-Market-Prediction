@@ -1,13 +1,6 @@
-import math
 import pandas as pd 
-import seaborn as sns
-import pandas_datareader as data
-import datetime as dt
-from datetime import datetime    
-sns.set_style("whitegrid")
-from pandas.plotting import autocorrelation_plot
+import pandas_datareader as data 
 import matplotlib.pyplot as plt
-plt.style.use("ggplot")
 from keras.models import load_model
 import streamlit as st
 
